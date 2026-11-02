@@ -1,0 +1,13 @@
+# Environment & Secrets
+.env
+*.env
+tokens.json
+
+# Browser Profile & Runtime
+chrome_profile/
+*.log
+
+# Agent Internal Notes
+memory/
+scratch/
+.system_generated/
