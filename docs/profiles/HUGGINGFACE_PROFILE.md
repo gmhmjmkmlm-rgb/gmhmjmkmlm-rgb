@@ -6,15 +6,15 @@
 
 ```yaml
 Full Name: Simon Vance
-Bio: Systems engineer exploring ultra-efficient edge inference, cache-conscious tensor kernels, and quantized neural audio DSP runtimes in Rust and modern C++.
-GitHub Username: gmhmjmkmlm
-Homepage / Website: https://github.com/gmhmjmkmlm
+Bio: Systems & audio DSP engineer focusing on low-latency numerical kernels, cache-conscious matrix operations, and high-performance embedded signal processing in Rust and C.
+GitHub Username: gmhmjmkmlm-rgb
+Homepage / Website: https://github.com/gmhmjmkmlm-rgb
 Interests:
-  - edge-inference
   - audio-dsp
-  - quantization
-  - tensor-kernels
+  - systems-programming
   - low-latency-systems
+  - numerical-computing
+  - embedded-systems
 ```
 
 ---
@@ -22,11 +22,11 @@ Interests:
 ## 2. Hugging Face Profile Introduction Body (User Bio / Organization Page)
 
 ```markdown
-# Simon Vance (@gmhmjmkmlm)
+# Simon Vance (@fsafdlsaf)
 
-Systems and infrastructure developer approaching machine learning from the perspective of **mechanical sympathy, cache locality, and minimal runtime overhead**.
+Systems and infrastructure developer focusing on **mechanical sympathy, cache locality, and minimal runtime overhead**.
 
-My work in this space explores the boundary between real-time DSP, micro-architecture optimization, and edge inference. I treat model weights as specialized immutable data structures and focus on running models deterministically on resource-constrained hardware without bloated dependency trees.
+My work in this space explores the boundary between real-time DSP, micro-architecture optimization, and deterministic numerical processing. I treat tensor weights and lookup tables as specialized immutable data structures and focus on running computations deterministically on resource-constrained hardware without bloated dependency trees.
 
 ---
 
@@ -34,28 +34,28 @@ My work in this space explores the boundary between real-time DSP, micro-archite
 
 | Focus Area | Core Technologies | Target Outcome |
 | :--- | :--- | :--- |
-| **Edge Audio Inference** | ONNX Runtime, Rust bindings, LibTorch C++ | Sub-5ms real-time audio vocoders and streaming speech encoders on CPU |
-| **Quantization & Kernels** | AVX2 / AVX-512 / NEON SIMD, custom GEMM | Cache-conscious 4-bit and 8-bit integer matrix multiplication kernels |
-| **Embedded Model Runtimes** | C23, Zig, bare-metal Linux | Standalone zero-dependency runtime wrappers for audio & sensor models |
+| **Real-Time Audio DSP** | C23, Rust, SIMD vectorization | Sub-millisecond audio synthesis and low-latency audio filtering |
+| **Numerical Kernels** | AVX2 / AVX-512 / NEON SIMD, custom GEMM | Cache-conscious matrix multiplication and convolution kernels |
+| **Embedded Systems Runtimes** | C23, Zig, bare-metal Linux | Standalone zero-dependency runtime routines for audio & sensor pipelines |
 | **Signal Processing Datasets** | FLAC, Arrow, Parquet | High-fidelity raw audio wavetables, impulse responses, and RF captures |
 
 ---
 
 ## 📦 Hosted Models & Data Repositories
 
-### Models & Runtimes
-- **`micro-vocoder-4bit`**: Ultra-compact 4-bit quantized neural vocoder compiled for low-latency streaming audio synthesis on single-core ARM/x86 devices.
+### Audio & Signal Processing
+- **`poly-wavetables`**: High-resolution bandlimited wavetables for subtractive sound synthesis engines.
 - **`raw-dsp-tensor-ops`**: Header-only C/C++ reference kernels for zero-allocation convolution, FFT, and matrix math tailored for audio sample blocks.
 
 ### Datasets
 - **`analog-synth-impulses`**: Multi-rate raw audio impulse response captures from vintage analog filters and modular synthesis modules (24-bit / 96kHz).
-- **`ebpf-syscall-latencies`**: Anonymized high-resolution latency trace datasets recorded under heavy I/O loads for training latency-spike prediction heuristics.
+- **`ebpf-syscall-latencies`**: Anonymized high-resolution latency trace datasets recorded under heavy I/O loads for empirical systems performance benchmarks.
 
 ---
 
 ## 🔗 Primary Engineering Base
 
 All underlying system daemons, storage engines, and network primitives are developed and maintained on GitHub:
-- **GitHub**: [github.com/gmhmjmkmlm](https://github.com/gmhmjmkmlm)
+- **GitHub**: [github.com/gmhmjmkmlm-rgb](https://github.com/gmhmjmkmlm-rgb)
 - **Direct Mail**: `simon.vance.dev@gmail.com`
 ```

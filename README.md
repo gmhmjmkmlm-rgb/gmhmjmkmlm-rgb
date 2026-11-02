@@ -1,6 +1,6 @@
 | [KR 한국어](./docs/locales/ko.md) | [US English](./README.md) | [JP 日本語](./docs/locales/ja.md) | [CN 简体中文](./docs/locales/zh-CN.md) | [ES Español](./docs/locales/es.md) |
 | :---: | :---: | :---: | :---: | :---: |
-| [FR Français](./docs/locales/fr.md) | [DE Deutsch](./docs/locales/de.md) | [RU Русский](./docs/locales/ru.md) | [BR Português](./docs/locales/pt-BR.md) | [SA العربية](./docs/locales/ar.md) |
+| [FR Français](./docs/locales/fr.md) | [DE Deutsch](./docs/locales/de.md) | [RU Русский](./docs/locales/ru.md) | [SA العربية](./docs/locales/ar.md) | [HI हिन्दी](./docs/locales/hi.md) |
 
 ---
 
@@ -43,7 +43,7 @@ Here are a few infrastructure projects and experiments I've designed and maintai
 ### 2. `meshpipe`
 > Modular UDP/QUIC packet multiplexer and telemetry probe written in Zig.
 - **Architecture**: Event-driven worker pool utilizing arena allocators and cacheline-aligned ring buffers.
-- **Highlights**: In-kernel packet filtering via eBPF XDP hook with fallback to user-space userspace SIMD checksumming.
+- **Highlights**: In-kernel packet filtering via eBPF XDP hook with fallback to user-space SIMD checksumming.
 - **Use Case**: Real-time distributed state synchronization across edge cluster nodes over lossy networks.
 
 ### 3. `chronos-probe`
